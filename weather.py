@@ -24,7 +24,7 @@ def init():
 def user_init():
     print("")
     print("Welcome to: ")
-    print("Weather Information System")
+    print("'Your Weather'")
     print("")
     print("Before you show you the weather, we have you cover some how-to's")
     print("")
@@ -83,6 +83,10 @@ def validate_menu():
                     valid_choice = True
                 case 3:
                     valid_choice = True
+                    print("Thank you for using 'Your Weather'")
+                    print("")
+                    print("Until next time")
+                    print("")
                     print("Exiting the program...")
                     break
                 case _:
