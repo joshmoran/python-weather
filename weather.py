@@ -83,6 +83,7 @@ def validate_menu():
                     valid_choice = True
                 case 3:
                     valid_choice = True
+                    print("")
                     print("Thank you for using 'Your Weather'")
                     print("")
                     print("Until next time")
